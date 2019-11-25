@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="4" failures="0" name="Main" skipped="0" tests="4" time="1.01" timestamp="2019-11-25 10:01:16"><testcase name="1. Verify header on the main page"><error type="java.lang.NullPointerException"/><system-err>null&#13;
+jbehave.TestRunner.setupDriver(TestRunner.java:45)&#13;
+</system-err></testcase><testcase name="2. Check all navigation tabs onthe main page"><error type="java.lang.NullPointerException"/><system-err>null&#13;
+jbehave.TestRunner.setupDriver(TestRunner.java:45)&#13;
+</system-err></testcase><testcase name="3. Send message"><error type="java.lang.NullPointerException"/><system-err>null&#13;
+jbehave.TestRunner.setupDriver(TestRunner.java:45)&#13;
+</system-err></testcase><testcase name="4. Login"><error type="java.lang.NullPointerException"/><system-err>null&#13;
+jbehave.TestRunner.setupDriver(TestRunner.java:45)&#13;
+</system-err></testcase></testsuite>

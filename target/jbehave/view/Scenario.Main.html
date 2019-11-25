@@ -1,0 +1,104 @@
+<html>
+<head>
+<title>Scenario.Main</title>
+<style type="text/css" media="all">
+@import url( "./style/jbehave-core.css" );
+</style>
+</head>
+<body>
+<div class="story">
+<h1></h1>
+<div class="path">Scenario/Main.story</div>
+<div class="scenario">
+<h2>Scenario: 1. Verify header on the main page</h2>
+<div class="step failed">jbehave.TestRunner.setupDriver() <span class="keyword failed">(FAILED)</span><br/><span class="message failed">org.jbehave.core.failures.BeforeOrAfterFailed: Method setupDriver (annotated with @BeforeScenario in class jbehave.TestRunner) failed: java.lang.NullPointerException</span></div>
+<div class="step notPerformed">Given I navigated to the base page via url = 'http://ahealth.zzz.com.ua/' <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">Then Actual header is 'КЛІНІКА &quot;АГАПІТ&quot;' <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step failed">jbehave.TestRunner.afterHook() <span class="keyword failed">(FAILED)</span><br/><span class="message failed">org.jbehave.core.failures.BeforeOrAfterFailed: Method afterHook (annotated with @AfterScenario in class jbehave.TestRunner) failed: java.lang.NullPointerException</span></div>
+<pre class="failure">org.jbehave.core.failures.BeforeOrAfterFailed: Method afterHook (annotated with @AfterScenario in class jbehave.TestRunner) failed: java.lang.NullPointerException
+	at org.jbehave.core.steps.StepCreator$BeforeOrAfterStep.perform(StepCreator.java:677)
+	at org.jbehave.core.steps.StepCreator$DelegatingStep.perform(StepCreator.java:644)
+	at org.jbehave.core.steps.StepCreator$UponAnyStep.doNotPerform(StepCreator.java:723)
+	at org.jbehave.core.embedder.PerformableTree$SomethingHappened.run(PerformableTree.java:373)
+...</pre>
+</div>
+<div class="scenario">
+<h2>Scenario: 2. Check all navigation tabs onthe main page</h2>
+<div class="step failed">jbehave.TestRunner.setupDriver() <span class="keyword failed">(FAILED)</span><br/><span class="message failed">org.jbehave.core.failures.BeforeOrAfterFailed: Method setupDriver (annotated with @BeforeScenario in class jbehave.TestRunner) failed: java.lang.NullPointerException</span></div>
+<div class="step notPerformed">Given I navigated to the base page via url = 'http://ahealth.zzz.com.ua/' <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">Then navigation panel contains 'Main page' tab <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">And navigation panel contains 'About Us' tab <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">And navigation panel contains 'Doctors' tab <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">And navigation panel contains 'Pricies' tab <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">And navigation panel contains 'Contacts' tab <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">And navigation panel contains 'News' tab <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">And navigation panel contains 'Sign In' tab <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step failed">jbehave.TestRunner.afterHook() <span class="keyword failed">(FAILED)</span><br/><span class="message failed">org.jbehave.core.failures.BeforeOrAfterFailed: Method afterHook (annotated with @AfterScenario in class jbehave.TestRunner) failed: java.lang.NullPointerException</span></div>
+<pre class="failure">org.jbehave.core.failures.BeforeOrAfterFailed: Method afterHook (annotated with @AfterScenario in class jbehave.TestRunner) failed: java.lang.NullPointerException
+	at org.jbehave.core.steps.StepCreator$BeforeOrAfterStep.perform(StepCreator.java:677)
+	at org.jbehave.core.steps.StepCreator$DelegatingStep.perform(StepCreator.java:644)
+	at org.jbehave.core.steps.StepCreator$UponAnyStep.doNotPerform(StepCreator.java:723)
+	at org.jbehave.core.embedder.PerformableTree$SomethingHappened.run(PerformableTree.java:373)
+...</pre>
+</div>
+<div class="scenario">
+<h2>Scenario: 3. Send message</h2>
+<div class="step failed">jbehave.TestRunner.setupDriver() <span class="keyword failed">(FAILED)</span><br/><span class="message failed">org.jbehave.core.failures.BeforeOrAfterFailed: Method setupDriver (annotated with @BeforeScenario in class jbehave.TestRunner) failed: java.lang.NullPointerException</span></div>
+<div class="step notPerformed">Given I navigated to the base page via url = 'http://ahealth.zzz.com.ua/' <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">When I navigated to the 'Contacts' page <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">And set 'Olha' into the name field <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">And set 'onahorna@kneu.ua' into the email field <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">And set 'Test' into the subject field <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">And set 'This message is created by autotest :)' into the message textarea <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">And I click on send button <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">Then message with the following text appears: 'Дякуємо за Ваше повідомлення. Воно було надіслано на опрацювання.' <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step failed">jbehave.TestRunner.afterHook() <span class="keyword failed">(FAILED)</span><br/><span class="message failed">org.jbehave.core.failures.BeforeOrAfterFailed: Method afterHook (annotated with @AfterScenario in class jbehave.TestRunner) failed: java.lang.NullPointerException</span></div>
+<pre class="failure">org.jbehave.core.failures.BeforeOrAfterFailed: Method afterHook (annotated with @AfterScenario in class jbehave.TestRunner) failed: java.lang.NullPointerException
+	at org.jbehave.core.steps.StepCreator$BeforeOrAfterStep.perform(StepCreator.java:677)
+	at org.jbehave.core.steps.StepCreator$DelegatingStep.perform(StepCreator.java:644)
+	at org.jbehave.core.steps.StepCreator$UponAnyStep.doNotPerform(StepCreator.java:723)
+	at org.jbehave.core.embedder.PerformableTree$SomethingHappened.run(PerformableTree.java:373)
+...</pre>
+</div>
+<div class="scenario">
+<h2>Scenario: 4. Login</h2>
+<div class="step failed">jbehave.TestRunner.setupDriver() <span class="keyword failed">(FAILED)</span><br/><span class="message failed">org.jbehave.core.failures.BeforeOrAfterFailed: Method setupDriver (annotated with @BeforeScenario in class jbehave.TestRunner) failed: java.lang.NullPointerException</span></div>
+<div class="step notPerformed">Given I navigated to the base page via url = 'http://ahealth.zzz.com.ua/' <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">When I navigated to the 'Log In' page <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">And set 'leomitchell41@gmail.com' into the username/email field <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">And set 'leomitchell41' into the password field <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">And I click on log in button <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">Then navigation panel contains 'Check In' tab <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step failed">jbehave.TestRunner.afterHook() <span class="keyword failed">(FAILED)</span><br/><span class="message failed">org.jbehave.core.failures.BeforeOrAfterFailed: Method afterHook (annotated with @AfterScenario in class jbehave.TestRunner) failed: java.lang.NullPointerException</span></div>
+<pre class="failure">org.jbehave.core.failures.BeforeOrAfterFailed: Method afterHook (annotated with @AfterScenario in class jbehave.TestRunner) failed: java.lang.NullPointerException
+	at org.jbehave.core.steps.StepCreator$BeforeOrAfterStep.perform(StepCreator.java:677)
+	at org.jbehave.core.steps.StepCreator$DelegatingStep.perform(StepCreator.java:644)
+	at org.jbehave.core.steps.StepCreator$UponAnyStep.doNotPerform(StepCreator.java:723)
+	at org.jbehave.core.embedder.PerformableTree$SomethingHappened.run(PerformableTree.java:373)
+...</pre>
+</div>
+</div>
+
+</body>
+<!--  SyntaxHighlighter resources:  should be included at end of body -->
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shCore.css"/>
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shThemeRDark.css"/>
+<script language="javascript" src="./js/sh-3.0.83/shCore.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushBash.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushCss.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushDiff.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushGroovy.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJava.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJScript.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPlain.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPython.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushRuby.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushScala.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushXml.js"></script>
+<script language="javascript" src="./js/shBrushBdd.js"></script>
+<script type="text/javascript">
+    SyntaxHighlighter.defaults['gutter'] = false;
+    SyntaxHighlighter.defaults['toolbar'] = false;    
+    SyntaxHighlighter.all();
+</script>
+</html>
